@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53359751C6889730013F7D9 /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = B53359741C6889730013F7D9 /* Study.m */; };
+		B59B8FEB1C68855F0097274C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FEA1C68855F0097274C /* main.m */; };
+		B59B90051C6885710097274C /* Objectstructure.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FF21C6885710097274C /* Objectstructure.m */; };
+		B59B90071C6885710097274C /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FF61C6885710097274C /* Woman.m */; };
+		B59B90081C6885710097274C /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FF81C6885710097274C /* Man.m */; };
+		B59B90091C6885710097274C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FFA1C6885710097274C /* Person.m */; };
+		B59B900A1C6885710097274C /* Marriage.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FFC1C6885710097274C /* Marriage.m */; };
+		B59B900B1C6885710097274C /* Falling.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B8FFE1C6885710097274C /* Falling.m */; };
+		B59B900C1C6885710097274C /* Success.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B90001C6885710097274C /* Success.m */; };
+		B59B900D1C6885710097274C /* BaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B90021C6885710097274C /* BaseAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B59B8FE51C68855F0097274C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B53359731C6889730013F7D9 /* Study.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Study.h; sourceTree = "<group>"; };
+		B53359741C6889730013F7D9 /* Study.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Study.m; sourceTree = "<group>"; };
+		B59B8FE71C68855F0097274C /* 访问者模式（visitor） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "访问者模式（visitor）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59B8FEA1C68855F0097274C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B59B8FF11C6885710097274C /* Objectstructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objectstructure.h; sourceTree = "<group>"; };
+		B59B8FF21C6885710097274C /* Objectstructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objectstructure.m; sourceTree = "<group>"; };
+		B59B8FF51C6885710097274C /* Woman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		B59B8FF61C6885710097274C /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		B59B8FF71C6885710097274C /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		B59B8FF81C6885710097274C /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		B59B8FF91C6885710097274C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B59B8FFA1C6885710097274C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B59B8FFB1C6885710097274C /* Marriage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marriage.h; sourceTree = "<group>"; };
+		B59B8FFC1C6885710097274C /* Marriage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marriage.m; sourceTree = "<group>"; };
+		B59B8FFD1C6885710097274C /* Falling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Falling.h; sourceTree = "<group>"; };
+		B59B8FFE1C6885710097274C /* Falling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Falling.m; sourceTree = "<group>"; };
+		B59B8FFF1C6885710097274C /* Success.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Success.h; sourceTree = "<group>"; };
+		B59B90001C6885710097274C /* Success.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Success.m; sourceTree = "<group>"; };
+		B59B90011C6885710097274C /* BaseAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAction.h; sourceTree = "<group>"; };
+		B59B90021C6885710097274C /* BaseAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAction.m; sourceTree = "<group>"; };
+		B59B90031C6885710097274C /* AbstartAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstartAction.h; sourceTree = "<group>"; };
+		B59B90041C6885710097274C /* AbstartPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstartPerson.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59B8FE41C68855F0097274C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59B8FDE1C68855F0097274C = {
+			isa = PBXGroup;
+			children = (
+				B59B8FE91C68855F0097274C /* 访问者模式（visitor） */,
+				B59B8FE81C68855F0097274C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59B8FE81C68855F0097274C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8FE71C68855F0097274C /* 访问者模式（visitor） */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59B8FE91C68855F0097274C /* 访问者模式（visitor） */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8FF11C6885710097274C /* Objectstructure.h */,
+				B59B8FF21C6885710097274C /* Objectstructure.m */,
+				B59B8FF51C6885710097274C /* Woman.h */,
+				B59B8FF61C6885710097274C /* Woman.m */,
+				B59B8FF71C6885710097274C /* Man.h */,
+				B59B8FF81C6885710097274C /* Man.m */,
+				B59B8FF91C6885710097274C /* Person.h */,
+				B59B8FFA1C6885710097274C /* Person.m */,
+				B59B8FFB1C6885710097274C /* Marriage.h */,
+				B59B8FFC1C6885710097274C /* Marriage.m */,
+				B53359731C6889730013F7D9 /* Study.h */,
+				B53359741C6889730013F7D9 /* Study.m */,
+				B59B8FFD1C6885710097274C /* Falling.h */,
+				B59B8FFE1C6885710097274C /* Falling.m */,
+				B59B8FFF1C6885710097274C /* Success.h */,
+				B59B90001C6885710097274C /* Success.m */,
+				B59B90011C6885710097274C /* BaseAction.h */,
+				B59B90021C6885710097274C /* BaseAction.m */,
+				B59B90031C6885710097274C /* AbstartAction.h */,
+				B59B90041C6885710097274C /* AbstartPerson.h */,
+				B59B8FEA1C68855F0097274C /* main.m */,
+			);
+			path = "访问者模式（visitor）";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59B8FE61C68855F0097274C /* 访问者模式（visitor） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59B8FEE1C68855F0097274C /* Build configuration list for PBXNativeTarget "访问者模式（visitor）" */;
+			buildPhases = (
+				B59B8FE31C68855F0097274C /* Sources */,
+				B59B8FE41C68855F0097274C /* Frameworks */,
+				B59B8FE51C68855F0097274C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "访问者模式（visitor）";
+			productName = "访问者模式（visitor）";
+			productReference = B59B8FE71C68855F0097274C /* 访问者模式（visitor） */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59B8FDF1C68855F0097274C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yml;
+				TargetAttributes = {
+					B59B8FE61C68855F0097274C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B59B8FE21C68855F0097274C /* Build configuration list for PBXProject "访问者模式（visitor）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B59B8FDE1C68855F0097274C;
+			productRefGroup = B59B8FE81C68855F0097274C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59B8FE61C68855F0097274C /* 访问者模式（visitor） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59B8FE31C68855F0097274C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59B90091C6885710097274C /* Person.m in Sources */,
+				B59B900B1C6885710097274C /* Falling.m in Sources */,
+				B59B90071C6885710097274C /* Woman.m in Sources */,
+				B59B900D1C6885710097274C /* BaseAction.m in Sources */,
+				B59B90081C6885710097274C /* Man.m in Sources */,
+				B59B90051C6885710097274C /* Objectstructure.m in Sources */,
+				B59B8FEB1C68855F0097274C /* main.m in Sources */,
+				B59B900A1C6885710097274C /* Marriage.m in Sources */,
+				B59B900C1C6885710097274C /* Success.m in Sources */,
+				B53359751C6889730013F7D9 /* Study.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B59B8FEC1C68855F0097274C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B59B8FED1C68855F0097274C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B59B8FEF1C68855F0097274C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B59B8FF01C68855F0097274C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59B8FE21C68855F0097274C /* Build configuration list for PBXProject "访问者模式（visitor）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59B8FEC1C68855F0097274C /* Debug */,
+				B59B8FED1C68855F0097274C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59B8FEE1C68855F0097274C /* Build configuration list for PBXNativeTarget "访问者模式（visitor）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59B8FEF1C68855F0097274C /* Debug */,
+				B59B8FF01C68855F0097274C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59B8FDF1C68855F0097274C /* Project object */;
+}

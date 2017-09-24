@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDB330B1C4D01A10045A4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB330A1C4D01A10045A4C1 /* main.m */; };
+		AFDB33141C4D04260045A4C1 /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB33131C4D04260045A4C1 /* BaseCommand.m */; };
+		AFDB33171C4D04780045A4C1 /* kaoyangCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB33161C4D04780045A4C1 /* kaoyangCommand.m */; };
+		AFDB331A1C4D04990045A4C1 /* kaojiCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB33191C4D04990045A4C1 /* kaojiCommand.m */; };
+		AFDB331D1C4D04C00045A4C1 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB331C1C4D04C00045A4C1 /* Waiter.m */; };
+		AFDB33201C4D04E80045A4C1 /* Cooker.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB331F1C4D04E80045A4C1 /* Cooker.m */; };
+		AFDB33231C4D04F70045A4C1 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB33221C4D04F70045A4C1 /* Client.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFDB33051C4D01A10045A4C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFDB33071C4D01A10045A4C1 /* 命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB330A1C4D01A10045A4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB33111C4D03FF0045A4C1 /* AbstractProtocolCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProtocolCommand.h; sourceTree = "<group>"; };
+		AFDB33121C4D04260045A4C1 /* BaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommand.h; sourceTree = "<group>"; };
+		AFDB33131C4D04260045A4C1 /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommand.m; sourceTree = "<group>"; };
+		AFDB33151C4D04780045A4C1 /* kaoyangCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaoyangCommand.h; sourceTree = "<group>"; };
+		AFDB33161C4D04780045A4C1 /* kaoyangCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaoyangCommand.m; sourceTree = "<group>"; };
+		AFDB33181C4D04990045A4C1 /* kaojiCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaojiCommand.h; sourceTree = "<group>"; };
+		AFDB33191C4D04990045A4C1 /* kaojiCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaojiCommand.m; sourceTree = "<group>"; };
+		AFDB331B1C4D04C00045A4C1 /* Waiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		AFDB331C1C4D04C00045A4C1 /* Waiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+		AFDB331E1C4D04E80045A4C1 /* Cooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cooker.h; sourceTree = "<group>"; };
+		AFDB331F1C4D04E80045A4C1 /* Cooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cooker.m; sourceTree = "<group>"; };
+		AFDB33211C4D04F70045A4C1 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		AFDB33221C4D04F70045A4C1 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		AFDB33241C4D0A9A0045A4C1 /* AbstractprotocolCook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractprotocolCook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDB33041C4D01A10045A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDB32FE1C4D01A10045A4C1 = {
+			isa = PBXGroup;
+			children = (
+				AFDB33091C4D01A10045A4C1 /* 命令模式 */,
+				AFDB33081C4D01A10045A4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDB33081C4D01A10045A4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB33071C4D01A10045A4C1 /* 命令模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDB33091C4D01A10045A4C1 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB330A1C4D01A10045A4C1 /* main.m */,
+				AFDB33111C4D03FF0045A4C1 /* AbstractProtocolCommand.h */,
+				AFDB33121C4D04260045A4C1 /* BaseCommand.h */,
+				AFDB33131C4D04260045A4C1 /* BaseCommand.m */,
+				AFDB33151C4D04780045A4C1 /* kaoyangCommand.h */,
+				AFDB33161C4D04780045A4C1 /* kaoyangCommand.m */,
+				AFDB33181C4D04990045A4C1 /* kaojiCommand.h */,
+				AFDB33191C4D04990045A4C1 /* kaojiCommand.m */,
+				AFDB331B1C4D04C00045A4C1 /* Waiter.h */,
+				AFDB331C1C4D04C00045A4C1 /* Waiter.m */,
+				AFDB33241C4D0A9A0045A4C1 /* AbstractprotocolCook.h */,
+				AFDB331E1C4D04E80045A4C1 /* Cooker.h */,
+				AFDB331F1C4D04E80045A4C1 /* Cooker.m */,
+				AFDB33211C4D04F70045A4C1 /* Client.h */,
+				AFDB33221C4D04F70045A4C1 /* Client.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDB33061C4D01A10045A4C1 /* 命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB330E1C4D01A10045A4C1 /* Build configuration list for PBXNativeTarget "命令模式" */;
+			buildPhases = (
+				AFDB33031C4D01A10045A4C1 /* Sources */,
+				AFDB33041C4D01A10045A4C1 /* Frameworks */,
+				AFDB33051C4D01A10045A4C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "命令模式";
+			productName = "命令模式";
+			productReference = AFDB33071C4D01A10045A4C1 /* 命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDB32FF1C4D01A10045A4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YML;
+				TargetAttributes = {
+					AFDB33061C4D01A10045A4C1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AFDB33021C4D01A10045A4C1 /* Build configuration list for PBXProject "命令模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFDB32FE1C4D01A10045A4C1;
+			productRefGroup = AFDB33081C4D01A10045A4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDB33061C4D01A10045A4C1 /* 命令模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDB33031C4D01A10045A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB33141C4D04260045A4C1 /* BaseCommand.m in Sources */,
+				AFDB330B1C4D01A10045A4C1 /* main.m in Sources */,
+				AFDB331A1C4D04990045A4C1 /* kaojiCommand.m in Sources */,
+				AFDB33171C4D04780045A4C1 /* kaoyangCommand.m in Sources */,
+				AFDB33201C4D04E80045A4C1 /* Cooker.m in Sources */,
+				AFDB331D1C4D04C00045A4C1 /* Waiter.m in Sources */,
+				AFDB33231C4D04F70045A4C1 /* Client.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFDB330C1C4D01A10045A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFDB330D1C4D01A10045A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFDB330F1C4D01A10045A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFDB33101C4D01A10045A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDB33021C4D01A10045A4C1 /* Build configuration list for PBXProject "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB330C1C4D01A10045A4C1 /* Debug */,
+				AFDB330D1C4D01A10045A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDB330E1C4D01A10045A4C1 /* Build configuration list for PBXNativeTarget "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB330F1C4D01A10045A4C1 /* Debug */,
+				AFDB33101C4D01A10045A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDB32FF1C4D01A10045A4C1 /* Project object */;
+}

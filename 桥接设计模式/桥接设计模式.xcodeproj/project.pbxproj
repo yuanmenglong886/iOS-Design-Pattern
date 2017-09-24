@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCB412C1C4131B0005ECAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB412B1C4131B0005ECAAE /* main.m */; };
+		AFCB41351C41351E005ECAAE /* AbstractRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41341C41351E005ECAAE /* AbstractRoad.m */; };
+		AFCB413C1C4136BE005ECAAE /* SpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB413B1C4136BE005ECAAE /* SpeedWay.m */; };
+		AFCB413F1C4136CB005ECAAE /* Street.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB413E1C4136CB005ECAAE /* Street.m */; };
+		AFCB41421C413778005ECAAE /* AbstactCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41411C413778005ECAAE /* AbstactCar.m */; };
+		AFCB41481C4137F4005ECAAE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41471C4137F4005ECAAE /* Car.m */; };
+		AFCB414B1C413801005ECAAE /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB414A1C413801005ECAAE /* Bus.m */; };
+		AFCB41501C413C20005ECAAE /* AbstactPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB414F1C413C20005ECAAE /* AbstactPerson.m */; };
+		AFCB41541C413D87005ECAAE /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41531C413D87005ECAAE /* Man.m */; };
+		AFCB41571C413DDA005ECAAE /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41561C413DDA005ECAAE /* Child.m */; };
+		AFCB415A1C413E20005ECAAE /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB41591C413E20005ECAAE /* Woman.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFCB41261C4131B0005ECAAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFCB41281C4131B0005ECAAE /* 桥接设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "桥接设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCB412B1C4131B0005ECAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFCB41321C4134F1005ECAAE /* AbstactRoadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstactRoadProtocol.h; sourceTree = "<group>"; };
+		AFCB41331C41351E005ECAAE /* AbstractRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRoad.h; sourceTree = "<group>"; };
+		AFCB41341C41351E005ECAAE /* AbstractRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRoad.m; sourceTree = "<group>"; };
+		AFCB41391C41366F005ECAAE /* AbstactCarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstactCarProtocol.h; sourceTree = "<group>"; };
+		AFCB413A1C4136BE005ECAAE /* SpeedWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedWay.h; sourceTree = "<group>"; };
+		AFCB413B1C4136BE005ECAAE /* SpeedWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedWay.m; sourceTree = "<group>"; };
+		AFCB413D1C4136CB005ECAAE /* Street.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Street.h; sourceTree = "<group>"; };
+		AFCB413E1C4136CB005ECAAE /* Street.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Street.m; sourceTree = "<group>"; };
+		AFCB41401C413778005ECAAE /* AbstactCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstactCar.h; sourceTree = "<group>"; };
+		AFCB41411C413778005ECAAE /* AbstactCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstactCar.m; sourceTree = "<group>"; };
+		AFCB41461C4137F4005ECAAE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		AFCB41471C4137F4005ECAAE /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		AFCB41491C413801005ECAAE /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bus.h; sourceTree = "<group>"; };
+		AFCB414A1C413801005ECAAE /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
+		AFCB414C1C4138FD005ECAAE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		AFCB414E1C413C20005ECAAE /* AbstactPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstactPerson.h; sourceTree = "<group>"; };
+		AFCB414F1C413C20005ECAAE /* AbstactPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstactPerson.m; sourceTree = "<group>"; };
+		AFCB41511C413C6F005ECAAE /* AbstactPersonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstactPersonProtocol.h; sourceTree = "<group>"; };
+		AFCB41521C413D87005ECAAE /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		AFCB41531C413D87005ECAAE /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		AFCB41551C413DDA005ECAAE /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		AFCB41561C413DDA005ECAAE /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		AFCB41581C413E20005ECAAE /* Woman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		AFCB41591C413E20005ECAAE /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCB41251C4131B0005ECAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCB411F1C4131B0005ECAAE = {
+			isa = PBXGroup;
+			children = (
+				AFCB412A1C4131B0005ECAAE /* 桥接设计模式 */,
+				AFCB41291C4131B0005ECAAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCB41291C4131B0005ECAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB41281C4131B0005ECAAE /* 桥接设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCB412A1C4131B0005ECAAE /* 桥接设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB414D1C413C01005ECAAE /* Person */,
+				AFCB41451C4137BD005ECAAE /* Car */,
+				AFCB41431C413786005ECAAE /* Road */,
+				AFCB412B1C4131B0005ECAAE /* main.m */,
+				AFCB414C1C4138FD005ECAAE /* Header.h */,
+			);
+			path = "桥接设计模式";
+			sourceTree = "<group>";
+		};
+		AFCB41431C413786005ECAAE /* Road */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB41321C4134F1005ECAAE /* AbstactRoadProtocol.h */,
+				AFCB41331C41351E005ECAAE /* AbstractRoad.h */,
+				AFCB41341C41351E005ECAAE /* AbstractRoad.m */,
+				AFCB413A1C4136BE005ECAAE /* SpeedWay.h */,
+				AFCB413B1C4136BE005ECAAE /* SpeedWay.m */,
+				AFCB413D1C4136CB005ECAAE /* Street.h */,
+				AFCB413E1C4136CB005ECAAE /* Street.m */,
+			);
+			name = Road;
+			sourceTree = "<group>";
+		};
+		AFCB41451C4137BD005ECAAE /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB41391C41366F005ECAAE /* AbstactCarProtocol.h */,
+				AFCB41401C413778005ECAAE /* AbstactCar.h */,
+				AFCB41411C413778005ECAAE /* AbstactCar.m */,
+				AFCB41461C4137F4005ECAAE /* Car.h */,
+				AFCB41471C4137F4005ECAAE /* Car.m */,
+				AFCB41491C413801005ECAAE /* Bus.h */,
+				AFCB414A1C413801005ECAAE /* Bus.m */,
+			);
+			name = Car;
+			sourceTree = "<group>";
+		};
+		AFCB414D1C413C01005ECAAE /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB41511C413C6F005ECAAE /* AbstactPersonProtocol.h */,
+				AFCB414E1C413C20005ECAAE /* AbstactPerson.h */,
+				AFCB414F1C413C20005ECAAE /* AbstactPerson.m */,
+				AFCB41521C413D87005ECAAE /* Man.h */,
+				AFCB41531C413D87005ECAAE /* Man.m */,
+				AFCB41551C413DDA005ECAAE /* Child.h */,
+				AFCB41561C413DDA005ECAAE /* Child.m */,
+				AFCB41581C413E20005ECAAE /* Woman.h */,
+				AFCB41591C413E20005ECAAE /* Woman.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCB41271C4131B0005ECAAE /* 桥接设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCB412F1C4131B0005ECAAE /* Build configuration list for PBXNativeTarget "桥接设计模式" */;
+			buildPhases = (
+				AFCB41241C4131B0005ECAAE /* Sources */,
+				AFCB41251C4131B0005ECAAE /* Frameworks */,
+				AFCB41261C4131B0005ECAAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "桥接设计模式";
+			productName = "桥接设计模式";
+			productReference = AFCB41281C4131B0005ECAAE /* 桥接设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCB41201C4131B0005ECAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "第七天";
+				TargetAttributes = {
+					AFCB41271C4131B0005ECAAE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AFCB41231C4131B0005ECAAE /* Build configuration list for PBXProject "桥接设计模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCB411F1C4131B0005ECAAE;
+			productRefGroup = AFCB41291C4131B0005ECAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCB41271C4131B0005ECAAE /* 桥接设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCB41241C4131B0005ECAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCB41541C413D87005ECAAE /* Man.m in Sources */,
+				AFCB41481C4137F4005ECAAE /* Car.m in Sources */,
+				AFCB413C1C4136BE005ECAAE /* SpeedWay.m in Sources */,
+				AFCB41421C413778005ECAAE /* AbstactCar.m in Sources */,
+				AFCB41571C413DDA005ECAAE /* Child.m in Sources */,
+				AFCB41501C413C20005ECAAE /* AbstactPerson.m in Sources */,
+				AFCB412C1C4131B0005ECAAE /* main.m in Sources */,
+				AFCB413F1C4136CB005ECAAE /* Street.m in Sources */,
+				AFCB414B1C413801005ECAAE /* Bus.m in Sources */,
+				AFCB415A1C413E20005ECAAE /* Woman.m in Sources */,
+				AFCB41351C41351E005ECAAE /* AbstractRoad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFCB412D1C4131B0005ECAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFCB412E1C4131B0005ECAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFCB41301C4131B0005ECAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFCB41311C4131B0005ECAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCB41231C4131B0005ECAAE /* Build configuration list for PBXProject "桥接设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB412D1C4131B0005ECAAE /* Debug */,
+				AFCB412E1C4131B0005ECAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCB412F1C4131B0005ECAAE /* Build configuration list for PBXNativeTarget "桥接设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB41301C4131B0005ECAAE /* Debug */,
+				AFCB41311C4131B0005ECAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCB41201C4131B0005ECAAE /* Project object */;
+}

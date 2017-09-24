@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCB26E41C3B4F1600837783 /* TransFactory+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB26E31C3B4F1600837783 /* TransFactory+Helper.m */; };
+		AFCB26E71C3B506200837783 /* Trave.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB26E61C3B506200837783 /* Trave.m */; };
+		AFCB26EA1C3B508900837783 /* Bycle.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB26E91C3B508900837783 /* Bycle.m */; };
+		AFCB26ED1C3B50A600837783 /* Tongyong.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB26EC1C3B50A600837783 /* Tongyong.m */; };
+		AFCB6E711C3AA7F800FAB516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E701C3AA7F800FAB516 /* main.m */; };
+		AFCB6E791C3AA88400FAB516 /* TransFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E781C3AA88400FAB516 /* TransFactory.m */; };
+		AFCB6E7C1C3AAB6A00FAB516 /* CarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E7B1C3AAB6A00FAB516 /* CarFactory.m */; };
+		AFCB6E7F1C3AAB8300FAB516 /* BoatFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E7E1C3AAB8300FAB516 /* BoatFactory.m */; };
+		AFCB6E821C3AABB000FAB516 /* AirportFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E811C3AABB000FAB516 /* AirportFactory.m */; };
+		AFCB6E851C3AABD400FAB516 /* BusFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB6E841C3AABD400FAB516 /* BusFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFCB6E6B1C3AA7F800FAB516 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFCB26E21C3B4F1600837783 /* TransFactory+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TransFactory+Helper.h"; sourceTree = "<group>"; };
+		AFCB26E31C3B4F1600837783 /* TransFactory+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TransFactory+Helper.m"; sourceTree = "<group>"; };
+		AFCB26E51C3B506200837783 /* Trave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trave.h; sourceTree = "<group>"; };
+		AFCB26E61C3B506200837783 /* Trave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trave.m; sourceTree = "<group>"; };
+		AFCB26E81C3B508900837783 /* Bycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bycle.h; sourceTree = "<group>"; };
+		AFCB26E91C3B508900837783 /* Bycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bycle.m; sourceTree = "<group>"; };
+		AFCB26EB1C3B50A600837783 /* Tongyong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tongyong.h; sourceTree = "<group>"; };
+		AFCB26EC1C3B50A600837783 /* Tongyong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tongyong.m; sourceTree = "<group>"; };
+		AFCB6E6D1C3AA7F800FAB516 /* ClassCluster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassCluster; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCB6E701C3AA7F800FAB516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFCB6E771C3AA88400FAB516 /* TransFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransFactory.h; sourceTree = "<group>"; };
+		AFCB6E781C3AA88400FAB516 /* TransFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransFactory.m; sourceTree = "<group>"; };
+		AFCB6E7A1C3AAB6A00FAB516 /* CarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarFactory.h; sourceTree = "<group>"; };
+		AFCB6E7B1C3AAB6A00FAB516 /* CarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarFactory.m; sourceTree = "<group>"; };
+		AFCB6E7D1C3AAB8300FAB516 /* BoatFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatFactory.h; sourceTree = "<group>"; };
+		AFCB6E7E1C3AAB8300FAB516 /* BoatFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatFactory.m; sourceTree = "<group>"; };
+		AFCB6E801C3AABB000FAB516 /* AirportFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirportFactory.h; sourceTree = "<group>"; };
+		AFCB6E811C3AABB000FAB516 /* AirportFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirportFactory.m; sourceTree = "<group>"; };
+		AFCB6E831C3AABD400FAB516 /* BusFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusFactory.h; sourceTree = "<group>"; };
+		AFCB6E841C3AABD400FAB516 /* BusFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCB6E6A1C3AA7F800FAB516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCB6E641C3AA7F800FAB516 = {
+			isa = PBXGroup;
+			children = (
+				AFCB6E6F1C3AA7F800FAB516 /* ClassCluster */,
+				AFCB6E6E1C3AA7F800FAB516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCB6E6E1C3AA7F800FAB516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB6E6D1C3AA7F800FAB516 /* ClassCluster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCB6E6F1C3AA7F800FAB516 /* ClassCluster */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB6E701C3AA7F800FAB516 /* main.m */,
+				AFCB6E831C3AABD400FAB516 /* BusFactory.h */,
+				AFCB6E841C3AABD400FAB516 /* BusFactory.m */,
+				AFCB6E801C3AABB000FAB516 /* AirportFactory.h */,
+				AFCB6E811C3AABB000FAB516 /* AirportFactory.m */,
+				AFCB6E7D1C3AAB8300FAB516 /* BoatFactory.h */,
+				AFCB6E7E1C3AAB8300FAB516 /* BoatFactory.m */,
+				AFCB6E7A1C3AAB6A00FAB516 /* CarFactory.h */,
+				AFCB6E7B1C3AAB6A00FAB516 /* CarFactory.m */,
+				AFCB6E771C3AA88400FAB516 /* TransFactory.h */,
+				AFCB6E781C3AA88400FAB516 /* TransFactory.m */,
+				AFCB26E21C3B4F1600837783 /* TransFactory+Helper.h */,
+				AFCB26E31C3B4F1600837783 /* TransFactory+Helper.m */,
+				AFCB26E51C3B506200837783 /* Trave.h */,
+				AFCB26E61C3B506200837783 /* Trave.m */,
+				AFCB26E81C3B508900837783 /* Bycle.h */,
+				AFCB26E91C3B508900837783 /* Bycle.m */,
+				AFCB26EB1C3B50A600837783 /* Tongyong.h */,
+				AFCB26EC1C3B50A600837783 /* Tongyong.m */,
+			);
+			path = ClassCluster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCB6E6C1C3AA7F800FAB516 /* ClassCluster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCB6E741C3AA7F800FAB516 /* Build configuration list for PBXNativeTarget "ClassCluster" */;
+			buildPhases = (
+				AFCB6E691C3AA7F800FAB516 /* Sources */,
+				AFCB6E6A1C3AA7F800FAB516 /* Frameworks */,
+				AFCB6E6B1C3AA7F800FAB516 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassCluster;
+			productName = ClassCluster;
+			productReference = AFCB6E6D1C3AA7F800FAB516 /* ClassCluster */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCB6E651C3AA7F800FAB516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = students;
+				TargetAttributes = {
+					AFCB6E6C1C3AA7F800FAB516 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AFCB6E681C3AA7F800FAB516 /* Build configuration list for PBXProject "ClassCluster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCB6E641C3AA7F800FAB516;
+			productRefGroup = AFCB6E6E1C3AA7F800FAB516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCB6E6C1C3AA7F800FAB516 /* ClassCluster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCB6E691C3AA7F800FAB516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCB6E7C1C3AAB6A00FAB516 /* CarFactory.m in Sources */,
+				AFCB6E851C3AABD400FAB516 /* BusFactory.m in Sources */,
+				AFCB6E711C3AA7F800FAB516 /* main.m in Sources */,
+				AFCB26EA1C3B508900837783 /* Bycle.m in Sources */,
+				AFCB26E41C3B4F1600837783 /* TransFactory+Helper.m in Sources */,
+				AFCB26E71C3B506200837783 /* Trave.m in Sources */,
+				AFCB6E7F1C3AAB8300FAB516 /* BoatFactory.m in Sources */,
+				AFCB6E791C3AA88400FAB516 /* TransFactory.m in Sources */,
+				AFCB26ED1C3B50A600837783 /* Tongyong.m in Sources */,
+				AFCB6E821C3AABB000FAB516 /* AirportFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFCB6E721C3AA7F800FAB516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFCB6E731C3AA7F800FAB516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFCB6E751C3AA7F800FAB516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFCB6E761C3AA7F800FAB516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCB6E681C3AA7F800FAB516 /* Build configuration list for PBXProject "ClassCluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB6E721C3AA7F800FAB516 /* Debug */,
+				AFCB6E731C3AA7F800FAB516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCB6E741C3AA7F800FAB516 /* Build configuration list for PBXNativeTarget "ClassCluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB6E751C3AA7F800FAB516 /* Debug */,
+				AFCB6E761C3AA7F800FAB516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCB6E651C3AA7F800FAB516 /* Project object */;
+}

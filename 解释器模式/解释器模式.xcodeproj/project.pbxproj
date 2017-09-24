@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDB32C21C4C6F110045A4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32C11C4C6F110045A4C1 /* main.m */; };
+		AFDB32CA1C4C735A0045A4C1 /* TerMinalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32C91C4C735A0045A4C1 /* TerMinalExpression.m */; };
+		AFDB32CE1C4C73BE0045A4C1 /* NonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32CD1C4C73BE0045A4C1 /* NonterminalExpression.m */; };
+		AFDB32D11C4C73D50045A4C1 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32D01C4C73D50045A4C1 /* Context.m */; };
+		AFDB32DA1C4C7A6E0045A4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32D91C4C7A6E0045A4C1 /* main.m */; };
+		AFDB32F31C4C986D0045A4C1 /* Playcontext.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32F21C4C986D0045A4C1 /* Playcontext.m */; };
+		AFDB32F71C4C9A920045A4C1 /* BaseExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32F61C4C9A920045A4C1 /* BaseExpression.m */; };
+		AFDB32FA1C4CAF120045A4C1 /* DerivedExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32F91C4CAF120045A4C1 /* DerivedExpression.m */; };
+		AFDB32FD1C4CB7760045A4C1 /* DerivedBExprssion.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB32FC1C4CB7760045A4C1 /* DerivedBExprssion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFDB32BC1C4C6F100045A4C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AFDB32D51C4C7A6E0045A4C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFDB32BE1C4C6F100045A4C1 /* 解释器模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "解释器模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB32C11C4C6F110045A4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB32C81C4C735A0045A4C1 /* TerMinalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerMinalExpression.h; sourceTree = "<group>"; };
+		AFDB32C91C4C735A0045A4C1 /* TerMinalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerMinalExpression.m; sourceTree = "<group>"; };
+		AFDB32CB1C4C738F0045A4C1 /* AbstractExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractExpression.h; sourceTree = "<group>"; };
+		AFDB32CC1C4C73BE0045A4C1 /* NonterminalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonterminalExpression.h; sourceTree = "<group>"; };
+		AFDB32CD1C4C73BE0045A4C1 /* NonterminalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonterminalExpression.m; sourceTree = "<group>"; };
+		AFDB32CF1C4C73D50045A4C1 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		AFDB32D01C4C73D50045A4C1 /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		AFDB32D21C4C753A0045A4C1 /* Interpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interpreter.h; sourceTree = "<group>"; };
+		AFDB32D71C4C7A6E0045A4C1 /* 音乐解释器模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "音乐解释器模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB32D91C4C7A6E0045A4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB32F11C4C986D0045A4C1 /* Playcontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playcontext.h; sourceTree = "<group>"; };
+		AFDB32F21C4C986D0045A4C1 /* Playcontext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playcontext.m; sourceTree = "<group>"; };
+		AFDB32F41C4C992F0045A4C1 /* AbstractExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractExpression.h; sourceTree = "<group>"; };
+		AFDB32F51C4C9A920045A4C1 /* BaseExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseExpression.h; sourceTree = "<group>"; };
+		AFDB32F61C4C9A920045A4C1 /* BaseExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseExpression.m; sourceTree = "<group>"; };
+		AFDB32F81C4CAF120045A4C1 /* DerivedExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedExpression.h; sourceTree = "<group>"; };
+		AFDB32F91C4CAF120045A4C1 /* DerivedExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DerivedExpression.m; sourceTree = "<group>"; };
+		AFDB32FB1C4CB7760045A4C1 /* DerivedBExprssion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedBExprssion.h; sourceTree = "<group>"; };
+		AFDB32FC1C4CB7760045A4C1 /* DerivedBExprssion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DerivedBExprssion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDB32BB1C4C6F100045A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDB32D41C4C7A6E0045A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDB32B51C4C6F100045A4C1 = {
+			isa = PBXGroup;
+			children = (
+				AFDB32C01C4C6F100045A4C1 /* 解释器模式模版 */,
+				AFDB32D81C4C7A6E0045A4C1 /* 音乐解释器模式 */,
+				AFDB32BF1C4C6F100045A4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDB32BF1C4C6F100045A4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB32BE1C4C6F100045A4C1 /* 解释器模式 */,
+				AFDB32D71C4C7A6E0045A4C1 /* 音乐解释器模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDB32C01C4C6F100045A4C1 /* 解释器模式模版 */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB32C11C4C6F110045A4C1 /* main.m */,
+				AFDB32D21C4C753A0045A4C1 /* Interpreter.h */,
+				AFDB32CB1C4C738F0045A4C1 /* AbstractExpression.h */,
+				AFDB32CC1C4C73BE0045A4C1 /* NonterminalExpression.h */,
+				AFDB32CD1C4C73BE0045A4C1 /* NonterminalExpression.m */,
+				AFDB32C81C4C735A0045A4C1 /* TerMinalExpression.h */,
+				AFDB32C91C4C735A0045A4C1 /* TerMinalExpression.m */,
+				AFDB32CF1C4C73D50045A4C1 /* Context.h */,
+				AFDB32D01C4C73D50045A4C1 /* Context.m */,
+			);
+			name = "解释器模式模版";
+			path = "解释器模式";
+			sourceTree = "<group>";
+		};
+		AFDB32D81C4C7A6E0045A4C1 /* 音乐解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB32D91C4C7A6E0045A4C1 /* main.m */,
+				AFDB32F11C4C986D0045A4C1 /* Playcontext.h */,
+				AFDB32F21C4C986D0045A4C1 /* Playcontext.m */,
+				AFDB32F41C4C992F0045A4C1 /* AbstractExpression.h */,
+				AFDB32F51C4C9A920045A4C1 /* BaseExpression.h */,
+				AFDB32F61C4C9A920045A4C1 /* BaseExpression.m */,
+				AFDB32FB1C4CB7760045A4C1 /* DerivedBExprssion.h */,
+				AFDB32FC1C4CB7760045A4C1 /* DerivedBExprssion.m */,
+				AFDB32F81C4CAF120045A4C1 /* DerivedExpression.h */,
+				AFDB32F91C4CAF120045A4C1 /* DerivedExpression.m */,
+			);
+			path = "音乐解释器模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDB32BD1C4C6F100045A4C1 /* 解释器模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB32C51C4C6F110045A4C1 /* Build configuration list for PBXNativeTarget "解释器模式" */;
+			buildPhases = (
+				AFDB32BA1C4C6F100045A4C1 /* Sources */,
+				AFDB32BB1C4C6F100045A4C1 /* Frameworks */,
+				AFDB32BC1C4C6F100045A4C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "解释器模式";
+			productName = "解释器模式";
+			productReference = AFDB32BE1C4C6F100045A4C1 /* 解释器模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AFDB32D61C4C7A6E0045A4C1 /* 音乐解释器模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB32DB1C4C7A6E0045A4C1 /* Build configuration list for PBXNativeTarget "音乐解释器模式" */;
+			buildPhases = (
+				AFDB32D31C4C7A6E0045A4C1 /* Sources */,
+				AFDB32D41C4C7A6E0045A4C1 /* Frameworks */,
+				AFDB32D51C4C7A6E0045A4C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音乐解释器模式";
+			productName = "音乐解释器模式";
+			productReference = AFDB32D71C4C7A6E0045A4C1 /* 音乐解释器模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDB32B61C4C6F100045A4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YML;
+				TargetAttributes = {
+					AFDB32BD1C4C6F100045A4C1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AFDB32D61C4C7A6E0045A4C1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AFDB32B91C4C6F100045A4C1 /* Build configuration list for PBXProject "解释器模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFDB32B51C4C6F100045A4C1;
+			productRefGroup = AFDB32BF1C4C6F100045A4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDB32BD1C4C6F100045A4C1 /* 解释器模式 */,
+				AFDB32D61C4C7A6E0045A4C1 /* 音乐解释器模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDB32BA1C4C6F100045A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB32CE1C4C73BE0045A4C1 /* NonterminalExpression.m in Sources */,
+				AFDB32D11C4C73D50045A4C1 /* Context.m in Sources */,
+				AFDB32C21C4C6F110045A4C1 /* main.m in Sources */,
+				AFDB32CA1C4C735A0045A4C1 /* TerMinalExpression.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDB32D31C4C7A6E0045A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB32DA1C4C7A6E0045A4C1 /* main.m in Sources */,
+				AFDB32FA1C4CAF120045A4C1 /* DerivedExpression.m in Sources */,
+				AFDB32F71C4C9A920045A4C1 /* BaseExpression.m in Sources */,
+				AFDB32FD1C4CB7760045A4C1 /* DerivedBExprssion.m in Sources */,
+				AFDB32F31C4C986D0045A4C1 /* Playcontext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFDB32C31C4C6F110045A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFDB32C41C4C6F110045A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFDB32C61C4C6F110045A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFDB32C71C4C6F110045A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFDB32DC1C4C7A6E0045A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFDB32DD1C4C7A6E0045A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDB32B91C4C6F100045A4C1 /* Build configuration list for PBXProject "解释器模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB32C31C4C6F110045A4C1 /* Debug */,
+				AFDB32C41C4C6F110045A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDB32C51C4C6F110045A4C1 /* Build configuration list for PBXNativeTarget "解释器模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB32C61C4C6F110045A4C1 /* Debug */,
+				AFDB32C71C4C6F110045A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFDB32DB1C4C7A6E0045A4C1 /* Build configuration list for PBXNativeTarget "音乐解释器模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB32DC1C4C7A6E0045A4C1 /* Debug */,
+				AFDB32DD1C4C7A6E0045A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDB32B61C4C6F100045A4C1 /* Project object */;
+}
